@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 import pandas as pd
 import datetime
-#import uvicorn
+import uvicorn
 app=FastAPI('1er MLOps-Proyect')  #http://127.0.0.1:8000
 
 df_user_reviews = pd.read_parquet(r'Data_Clean\clean_user_reviews.parquet.gzip')
