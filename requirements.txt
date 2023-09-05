@@ -1,4 +1,3 @@
--vadersentiment 
 _r-mutex=1.0.0
 - aiofiles=22.1.0
 - aiosqlite=0.18.0
