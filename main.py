@@ -5,9 +5,9 @@ import pandas as pd
 from typing import Optional
 app=FastAPI()  #http://127.0.0.1:8000
 
-df_user_reviews = pd.read_parquet(r'Data_Clean/clean_user_reviews.parquet.gzip')
-df_steam_games = pd.read_parquet(r'Data_Clean/clean_steam_games.parquet.gzip')
-df_user_items = pd.read_parquet(r'Data_Clean/clean__user_items.parquet.gzip')
+df_user_reviews = pd.read_parquet(r'Data_Clean\clean_user_reviews.parquet.gzip')
+df_steam_games = pd.read_parquet(r'Data_Clean\clean_steam_games.parquet.gzip')
+df_user_items = pd.read_parquet(r'Data_Clean\clean_user_items.parquet.gzip')
 
 @app.get("/userdata/User_id")
 def userdata(User_id: str):
