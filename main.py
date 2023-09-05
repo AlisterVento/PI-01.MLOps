@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import uvicorn
 import pandas as pd
 from typing import Optional
+import datetime
 app=FastAPI()  #http://127.0.0.1:8000
 
 df_user_reviews = pd.read_parquet(r'Data_Clean\clean_user_reviews.parquet.gzip')
