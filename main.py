@@ -1,8 +1,6 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 import uvicorn
 import pandas as pd
-from typing import Optional
 import datetime
 app=FastAPI()  #http://127.0.0.1:8000
 
