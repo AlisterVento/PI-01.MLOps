@@ -4,7 +4,6 @@
 ![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/728b3afa-25a2-442a-82a9-93b3d62d23e7)
 
 
-Primer Proyecto  situándose en el rol de un MLOps Engineer.
 ## **Machine Learning Operations (MLOps)**
 ## **Sobre el proyecto**
 
@@ -18,15 +17,28 @@ Steam el cual es la empresa donde empezaste a trabajar en el area de proyectos d
 como  tarea elaborar un MVP de su primer  proyecto de Data Science  en el mundo laboral el cual pondra a prueba sus habilidades ,Steam requiere que elabores
 un sistema de recomendacion de videojuegos para usuarios.
 
+## Contenido
+
+- [Introduccion](#Introduccion)
+- [Contexto analítico ](#Contexto analítico )
+- [Descripción del Problema](#descripción-del-problema)
+- [Procesos que se desarrollo](#Procesos que se desarrollo)
+- [Exploratory Data Analysis (EDA)](#Exploratory Data Analysis (EDA))
+- [Modelo de Aprendizaje Automático](#modelo-de-aprendizaje-automático)
+- [Implementación de la API](#implementación-de-la-api)
+- [Uso de la API](#Uso de la API)
+
+
 ## **Introduccion**
 ![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/35a1d882-8a1f-4e05-9a48-e809d40ae928)
 
 Siguiendo el esquema como referencia se solicito elaborar un sistema de recomendacion de videojuegos para usuarios,realizar las transformaciones correspondientes , feature engineering ,
 desarrolloar un API y unas funciones que se consumiran en el API y se realizara el deploy correspondiente .
 
-* Contexto analítico. Como parte del proyecto de Data Science se brindo los siguientes datos :
+## Contexto analítico 
+Como parte del proyecto de Data Science se brindo los siguientes datos :
 En esta ocasion se uso un dataset sobre la informacion de juegos de Steam en la comunidad australiana.
-los 3 set de datos que se nos muestra acontinuacion :
+los 3 set de datos se encuentran almancenados en la carpeta [Data](PI-01.MLOps/Data/)que se nos muestra acontinuacion :
 - •steam_games.json
 - •user_review.json
 - •user_items.json
@@ -34,18 +46,26 @@ los 3 set de datos que se nos muestra acontinuacion :
 
 ## **Descripción del problema**
 Steam necesitaba un sistema de recomendación de videojuegos para sus usuarios. Los datos iniciales eran desafiantes, con datos crudos y poco limpios. Como MLOps Engineer, tuve que realizar tareas de Data Engineering y crear un MVP para abordar este problema, ademas de otras funciones.
-Rol a desarrollar
+
+## **Procesos que se desarrollo**
+
+### Proceso de ETL:
+
+#### Extraccion
+
+#### Transformacion
+
+#### Carga
+
+### Exploratory Data Analysis (EDA)
+
+## Modelo de Aprendizaje Automático
+
+## Implementación de la API
+
+## Uso de la API
 
 
-## Procesos que se desarrollo
-* Descripción del Problema
-* Exploratory Data Analysis (EDA)
-* Modelo de Aprendizaje Automático
-* Implementación de la API
-* Cómo Usar la API
-* Video de Demostración
-* Repositorio
-* Fuentes de Datos
 
 
 
