@@ -38,7 +38,7 @@ desarrolloar un API y unas funciones que se consumiran en el API y se realizara 
 ## Contexto analítico 
 Como parte del proyecto de Data Science se brindo los siguientes datos :
 En esta ocasion se uso un dataset sobre la informacion de juegos de Steam en la comunidad australiana.
-los 3 set de datos se encuentran almancenados en la carpeta [Data](PI-01.MLOps/Data/)que se nos muestra acontinuacion :
+los 3 set de datos se encuentran almancenados en la carpeta [Data](/Data/) que se nos muestra acontinuacion :
 - •steam_games.json
 - •user_review.json
 - •user_items.json
