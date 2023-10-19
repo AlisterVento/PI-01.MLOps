@@ -51,14 +51,18 @@ los 3 set de datos se encuentran almancenados en la carpeta [Data](/Data/) que s
 ## **Descripción del Problema**
 Steam necesitaba un sistema de recomendación de videojuegos para sus usuarios. Los datos iniciales eran desafiantes, con datos crudos y poco limpios. Como MLOps Engineer, tuve que realizar tareas de Data Engineering y crear un MVP para abordar este problema, ademas de otras funciones.
 
-
-
 ## Proceso de ETL
-
+En esta parte del parte se preprocesara la data que se obtuvo para poder transformarla y posteriormente cargarla para realizar el EDA respectivo
 ### Extraccion
-
+- La carga de datos se realizo a travez del repositorio brindado [Dataset](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj)
+- Tras una rapida observacion de los datasets en el formato JSON.
+- Se procedio a convertirlos en DataFrames para su posterior transformacion asi como tambien se desanido algunas columnas .
 ### Transformacion
 
+- Se ha realizado una exhaustiva transformacion de datos, limpieza, imputacion de datos faltantes
+mapeo de emojis, etc.
+- Y se han exportado como .parquet comprimidos con GZIP
+- Las columnas y filas innecesarias se han eliminado para optimizar el rendimiento de la API y el entrenamiento del modelo.
 ### Carga
 
 ### Exploratory Data Analysis(EDA)
