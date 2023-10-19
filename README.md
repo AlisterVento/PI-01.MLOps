@@ -20,13 +20,13 @@ un sistema de recomendacion de videojuegos para usuarios.
 ## Contenido
 
 - [Introduccion](#Introduccion)
-- [Contexto analítico ](#Contexto analítico )
-- [Descripción del Problema](#descripción-del-problema)
-- [Procesos que se desarrollo](#Procesos que se desarrollo)
-- [Exploratory Data Analysis (EDA)](#Exploratory Data Analysis (EDA))
+- [Contexto analítico](#Contexto-analítico)
+- [Descripción del Problema](#Descripción-del-Problema)
+- [Proceso de ETL](#Proceso-de-ETL)
+- [Exploratory Data Analysis(EDA)](#Exploratory-Data-Analysis(EDA))
 - [Modelo de Aprendizaje Automático](#modelo-de-aprendizaje-automático)
 - [Implementación de la API](#implementación-de-la-api)
-- [Uso de la API](#Uso de la API)
+- [Uso de la API](#Uso-de-la-API)
 
 
 ## **Introduccion**
@@ -44,20 +44,20 @@ los 3 set de datos se encuentran almancenados en la carpeta [Data](PI-01.MLOps/D
 - •user_items.json
 - Este notebook resume los resultados del desarrollo de mi primer proyecto enfocado en **Data Engineering y MLOps**.
 
-## **Descripción del problema**
+## **Descripción del Problema**
 Steam necesitaba un sistema de recomendación de videojuegos para sus usuarios. Los datos iniciales eran desafiantes, con datos crudos y poco limpios. Como MLOps Engineer, tuve que realizar tareas de Data Engineering y crear un MVP para abordar este problema, ademas de otras funciones.
 
-## **Procesos que se desarrollo**
 
-### Proceso de ETL:
 
-#### Extraccion
+## Proceso de ETL
 
-#### Transformacion
+### Extraccion
 
-#### Carga
+### Transformacion
 
-### Exploratory Data Analysis (EDA)
+### Carga
+
+### Exploratory Data Analysis(EDA)
 
 ## Modelo de Aprendizaje Automático
 
