@@ -20,6 +20,7 @@ Esta plataforma actualmente tiene casi 20 años en el mercado ,y su principal ob
 Steam el cual es la empresa donde empezaste a trabajar en el area de proyectos de Data ,Solicito la labor al area de **Data Science** al cual usted pertence,
 como  tarea elaborar un MVP de su primer  proyecto de Data Science  en el mundo laboral el cual pondra a prueba sus habilidades ,Steam requiere que elabores
 un sistema de recomendacion de videojuegos para usuarios.
+Todo el proceso se encuentra compilado en [Notebook](/Proyecto MLOps.ipynb)
 
 ## Contenido
 
@@ -58,13 +59,17 @@ En esta parte del parte se preprocesara la data que se obtuvo para poder transfo
 - Tras una rapida observacion de los datasets en el formato JSON.
 - Se procedio a convertirlos en DataFrames para su posterior transformacion asi como tambien se desanido algunas columnas .
 ### Transformacion
-
-- Se ha realizado una exhaustiva transformacion de datos, limpieza, imputacion de datos faltantes
-mapeo de emojis, etc.
-- Y se han exportado como .parquet comprimidos con GZIP
-- Las columnas y filas innecesarias se han eliminado para optimizar el rendimiento de la API y el entrenamiento del modelo.
+- Se transforma cada dataframe por separado .
+- Se elimina las columnas 
+- Se procesa los datos realizando transformacion de datos, limpieza y aplicando imputacion de datos para los faltantos
+- Se dropea las filas que poseen muchos datos faltaste los cuales no se pueden imputar
 ### Carga
-
+- Tras realizar la transformacion correspondiente se procede a exportar en formato parquet comprimido en gzip
+  los resultados se encuentran en [Data Clean](/Data_Clean/)
+-El proceso realizado se encuentra en los sigueintes notebooks:
+[Notebook Steam Games](/steam_games Analisis.ipynb)
+[Notebook User Items](/user_items Analisis.ipynb)
+[Notebook User Reviews](/user_reviews Analisis.ipynb)
 ### Exploratory Data Analysis(EDA)
 
 ## Modelo de Aprendizaje Automático
