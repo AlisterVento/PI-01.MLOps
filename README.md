@@ -63,6 +63,7 @@ En esta parte del parte se preprocesara la data que se obtuvo para poder transfo
 - Se elimina las columnas 
 - Se procesa los datos realizando transformacion de datos, limpieza y aplicando imputacion de datos para los faltantos
 - Se dropea las filas que poseen muchos datos faltaste los cuales no se pueden imputar
+- Para el archivo de User_Reviews se realizo un analisis de sentimiento usando NLP con la libreria  VaderSentimient 
 ### Carga
 - Tras realizar la transformacion correspondiente se procede a exportar en formato parquet comprimido en gzip
   los resultados se encuentran en [Data Clean](/Data_Clean/)
@@ -70,7 +71,7 @@ En esta parte del parte se preprocesara la data que se obtuvo para poder transfo
 - [Notebook Steam Games](/steam_games%20Analisis.ipynb)
 - [Notebook User Items](/user_items%20Analisis.ipynb)
 - [Notebook User Reviews](/user_reviews%20Analisis.ipynb)
-### Exploratory Data Analysis(EDA)
+## Exploratory Data Analysis(EDA)
 
 ## Modelo de Aprendizaje Automático
 
