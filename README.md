@@ -1,9 +1,9 @@
 </center>
-![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/671a9101-a8c4-49de-9419-6fe9ff1fdc05)
+  ![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/671a9101-a8c4-49de-9419-6fe9ff1fdc05)
 </center>
 # PI-01.MLOps
 </center>
-![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/728b3afa-25a2-442a-82a9-93b3d62d23e7)
+  ![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/728b3afa-25a2-442a-82a9-93b3d62d23e7)
 </center>
 
 ## **Machine Learning Operations (MLOps)**
