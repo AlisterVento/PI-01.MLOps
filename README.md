@@ -21,10 +21,10 @@ un sistema de recomendacion de videojuegos para usuarios.
 ## **Introduccion**
 ![image](https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/35a1d882-8a1f-4e05-9a48-e809d40ae928)
 
- Usted debe encargarse de elaborar un  de sistema de recomendación de videojuegos para usuarios  ,realizar las transformaciones correspondientes , feature engineering ,
- desarrolloar un API y unas funciones que se consumiran en el API y se realizara el deploy correspondiente .
+Siguiendo el esquema como referencia se solicito elaborar un sistema de recomendacion de videojuegos para usuarios,realizar las transformaciones correspondientes , feature engineering ,
+desarrolloar un API y unas funciones que se consumiran en el API y se realizara el deploy correspondiente .
 
-* Contexto analítico. Como parte del proyecto de Data Science se le entrego los los siguientes datos ya se han recopilado y están en completa disposcion de uso para usted:
+* Contexto analítico. Como parte del proyecto de Data Science se brindo los siguientes datos :
 En esta ocasion se uso un dataset sobre la informacion de juegos de Steam en la comunidad australiana.
 los 3 set de datos que se nos muestra acontinuacion :
 - •steam_games.json
@@ -32,10 +32,7 @@ los 3 set de datos que se nos muestra acontinuacion :
 - •user_items.json
 - Este notebook resume los resultados del desarrollo de mi primer proyecto enfocado en **Data Engineering y MLOps**.
 
-
-
-
-## **Descripción del problema (Contexto y rol a desarrollar)**
+## **Descripción del problema**
 Steam necesitaba un sistema de recomendación de videojuegos para sus usuarios. Los datos iniciales eran desafiantes, con datos crudos y poco limpios. Como MLOps Engineer, tuve que realizar tareas de Data Engineering y crear un MVP para abordar este problema, ademas de otras funciones.
 Rol a desarrollar
 
