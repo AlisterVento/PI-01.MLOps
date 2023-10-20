@@ -14,9 +14,10 @@ Steam es una plataforma de distribución digital de videojuegos desarrollada por
 Esta plataforma actualmente tiene casi 20 años en el mercado ,y su principal objetivo es permitir unificar y distribuir videojuegos ,tanto de forma gratuita como de pago
 ,adicionalmente cuenta con servidores de emparejamiento, transmisiones de vídeo y servicios de redes sociales.
 
-Steam el cual es la empresa donde empezaste a trabajar en el area de proyectos de Data ,Solicito la labor al area de **Data Science** al cual usted pertence,
-como  tarea elaborar un MVP de su primer  proyecto de Data Science  en el mundo laboral el cual pondra a prueba sus habilidades ,Steam requiere que elabores
-un sistema de recomendacion de videojuegos para usuarios.
+Steam ,la empresa donde empezaste a trabajar, en el area de proyectos de Data ,Solicito lal area de **Data Science** ,
+la tarea de elaborar un sistema de recomendacion y el despliegue del servicio en una API como  MVP de su primer proyecto de Data Science  en el mundo laboral el cual pondra a prueba sus habilidades .
+
+
 Todo el proceso se encuentra compilado en el siguiente [Notebook](/Proyecto%20MLOps.ipynb)
 
 ## Contenido
