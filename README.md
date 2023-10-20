@@ -89,7 +89,8 @@ Desarrollo:
 Para la implentacion de la API se uso como herramienta la libreria de FastAPI el cual facilito la implementacion para el deploy de la API se uso los siguietes archivos:
 - [Main](/main.py),
 - [Requirement](/requirements.txt)
-- [Procfile](/Procfile.txt) 
+- [Procfile](/Procfile.txt)
+  
 Se han creado las siguientes funciones para los endpoints de la API:
 - userdata(User_id: str)
 - countreviews(YYYY-MM-DD y YYYY-MM-DD: str)
