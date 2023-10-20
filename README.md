@@ -69,12 +69,37 @@ En esta parte del parte se preprocesara la data que se obtuvo para poder transfo
 - [Notebook User Items](/user_items%20Analisis.ipynb)
 - [Notebook User Reviews](/user_reviews%20Analisis.ipynb)
 ## Exploratory Data Analysis(EDA)
-
+Tras la exportacion de la data clean se procedio a trabajar en el notebook central [Notebook](/Proyecto%20MLOps.ipynb) donde se procedio a hacer el respectivo analisis formulando preguntas correspondientes a los datos que se obtuvo y tambien presentandolos graficamente 
+donde se pudo llegar a diversas conclusiones como:
+- Basado en la data comprendida entre el 2000 y 2018 se observa un pico de creacion de videojuegos en el año 2015 rondando los 10000 juegos
+- Mas del 90% de juegos no ofrecen una version **Early Access**
+- Del total de juegos casi el 50% son producidas por compañias Indies
+- Los desarrolladores en su mayoria colocan como precio a sus productos 5$ seguido de 10$
+- El juego mas jugado en steam en toda su historia y en las ultimas dos semanas que presceden a la toma de datos es **Counter Strike**
+- Las reseñas normalmente encontradas en la baul de comentarios de los juegos en su mayoria no son utiles
 ## Modelo de Aprendizaje Automático
+Para la realizacion del modelo a usar en este caso fue para la elaboracion de un modelo de recomendacion se uso el modelo de coseno de similitud 
+Puede ser más valioso encontrar todas aquellas juegos que son más parecidas a la que nos gusta.
+Desarrollo:
+-Carga de datos extrayendo nuestras columnas de interes ene ste caso los generos de cada juego y el nombre del juego
+-Usando TfidfVectorizer una libreria que realiza la labor de tokenizar los documentos, aprender el vocabulario e invertir las ponderaciones de frecuencia de los documentos, y permitir codificar nuevos documentos.
+-Se procede a elaborar el modelo de coseno de similud y creando una matriz entre todo los juegos 
 
 ## Implementación de la API
+Para la implentacion de la API se uso como herramienta la libreria de FastAPI el cual facilito la implementacion para el deploy de la API se uso los siguietes archivos:
+- [Main](/main.py),
+- [Requirement](/requirements.txt)
+- [Procfile](/Procfile.txt) 
+Se han creado las siguientes funciones para los endpoints de la API:
+- userdata(User_id: str)
+- countreviews(YYYY-MM-DD y YYYY-MM-DD: str)
+- genre(género: str)
+- userforgenre(género: str)
+- developer(desarrollador: str)
+- sentiment_analysis(año: int)
 
 ## Uso de la API
+Update:Para el deploy del API se uso Railway el cual se encontraba funcional ,actualmente el servicio paso a deprecated sin embargo aun se puede hacer el deploy de manera local
 
 
 
