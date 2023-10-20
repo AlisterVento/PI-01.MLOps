@@ -1,9 +1,6 @@
-# **PI-01.MLOps**
-<p align="center">
-  <img src="https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/671a9101-a8c4-49de-9419-6fe9ff1fdc05"/>
-</p>
+<h1 align=center> PI-01.MLOps </h1>
 
-## **Machine Learning Operations (MLOps)**
+# **Machine Learning Operations (MLOps)**
 
 <p align="center">
   <img src="https://github.com/AlisterVento/PI-01.MLOps/assets/129628866/728b3afa-25a2-442a-82a9-93b3d62d23e7"/>
